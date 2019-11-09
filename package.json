@@ -2,10 +2,12 @@
 	"name": "go-local-playground",
 	"displayName": "go-local-playground",
 	"description": "go-local-playground",
-	"version": "0.0.1",
+	"publisher": "sky126",
+	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.40.0"
 	},
+	"repository":"https://github.com/sky126/go-local-playground",
 	"categories": [
 		"Other"
 	],
@@ -17,7 +19,7 @@
 	"contributes": {
 		"commands": [{
 			"command": "extension.GoPlayground",
-			"title": "Run Go Playground"
+			"title": "New Go Playground"
 		},
 		{
 			"command": "extension.reopenGoPlayground",
